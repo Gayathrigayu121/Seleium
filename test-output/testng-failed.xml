@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoketestscenario]">
+  <test thread-count="5" name="Sprint(failed)">
+    <classes>
+      <class name="testNGCase.TestCase3">
+        <methods>
+          <include name="Testthree"/>
+        </methods>
+      </class> <!-- testNGCase.TestCase3 -->
+    </classes>
+  </test> <!-- Sprint(failed) -->
+</suite> <!-- Failed suite [Smoketestscenario] -->
